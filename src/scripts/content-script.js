@@ -11,7 +11,7 @@ library.add(faSyncAlt)
 Vue.component('font-awesome-icon', FontAwesomeIcon)
 const appElement = document.createElement('div');
 appElement.id = 'page-tree-incremental-search';
-const nav = document.querySelector('.acs-nav-sections');
+const nav = document.getElementsByClassName('acs-nav-sections')[0];
 
 if (nav) {
   addTargetBlank()
